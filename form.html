@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Форма регистрации</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+	<section class=intro-page>
+		<header class="page-header  page-header--mini">
+			<div class="logo-title">PINK</div>
+			<label class="toggler" for="toggler-btn"></label>
+			<input type="checkbox" name="toggler-btn" id="toggler-btn-id" class="toggler-btn-id">
+		</header>
+		<header class="page-header  page-header--full">
+			<nav class="main-title">
+				<ul class="main-title__list">
+					<li>
+						<a href="#">Главная</a>
+					</li>
+					<li>
+						<a href="#">Фотографии</a>
+					</li>
+					<li>
+						<a href="#">Конкурс</a>
+					</li>
+					<li>
+						<a href="#">HTML Academy</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
+	</section>
+	<section class="inner">
+		<h2 class="inner-title">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
+		<form class="form" action="#" method="post">
+			<fieldset class="form__full-name">
+				<section class="family">
+					<label for="input-family">Фамилия:</label>
+					<input type="text" name="family" placeholder="Укажите фамилию">
+				</section>
+				<section class="name">
+					<label for="input-name">Имя:</label>
+					<input type="text" name="name" placeholder="Укажите ваше имя">
+				</section>
+				<section class="patronymic">
+					<label for="input-name">Отчество:</label>
+					<input type="text" name="name" placeholder="Ну и отчество тоже">
+				</section>
+			</fieldset>
+			<fieldset class="form__achievements">
+				<legend>Ваши безбашенные достижения в путешествии</legend>
+				<input type="checkbox" name="shark" id="achievemets__item--1">
+				<label class="achievemets__item" for="achievemets__item--1">Сделал селфи с акулой</label>
+				<input type="checkbox" name="shark" id="achievemets__item--2">
+				<label class="achievemets__item" for="achievemets__item--2">Обгорел на пляже</label>
+				<input type="checkbox" name="shark" id="achievemets__item--3">
+				<label class="achievemets__item" for="achievemets__item--3">Видел Чака Норриса</label>
+				<input type="checkbox" name="shark" id="achievemets__item--4">
+				<label class="achievemets__item" for="achievemets__item--4">Накупил сувениров</label>
+				<input type="checkbox" name="shark" id="achievemets__item--5">
+				<label class="achievemets__item" for="achievemets__item--5">Удержал башню</label>
+				<input type="checkbox" name="shark" id="achievemets__item--6">
+				<label class="achievemets__item" for="achievemets__item--6">Разгромил отель</label>
+			</fieldset>
+			<fieldset class="form__contacts">
+			<legend></legend>
+			<label for="enter-tel">Номерок телефончика</label>
+			<input type="tel" name="tel-input" placeholder="Номер, пожалуйста" id="enter-tel">
+			<label for="enter-email">Адресок почты</label>
+			<input type="email" name="email-input" id="enter-email" placeholder="E-mail, пожалуйста">
+			</fieldset>
+			<fieldset class="form__application">
+				<legend>С каким праложением путешествовали?</legend>
+				<input type="radio" name="app" id="ios-radio" checked>
+				<label for="ios-radio">Pink на IOS</label>
+				<input type="radio" name="app" id="android-radio">
+				<label for="android-radio">Pink на Android</label>
+				<input type="radio" name="app" id="windows-radio">
+				<label for="windows-radio">Windows Phone</label>
+			</fieldset>
+			<fieldset class="form__text">
+				<legend>Опишите свои эмоции</legend>
+				<textarea placeholder="Можно прям в красках, не стесняясь в выражениях" id="text"></textarea>
+			</fieldset>
+			<input class="form__send" type="submit" name="form-send" value="Отправить форму">
+			<p class="form__note"><span>*</span>- обязательные</p>
+		</form>
+	</section>
+	<footer class="main-footer">
+		<div class="main-footer__logo">PINK</div>
+		<div class="social">
+			<a class="social__link  social__link--twitter"></a>
+			<a class="social__link  social__link--facebook"></a>
+			<a class="social__link  social__link--youtube"></a>
+		</div>
+		<div class="copyright">Разработано</div>
+	</footer>
+</body>
+</html>
